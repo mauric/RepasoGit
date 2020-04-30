@@ -1,31 +1,31 @@
+const content = require('./src');
 
-function router(req, res){
-	switch(req.url){
-		case "/":
-			res.end(homePage2());
-			break;
-		case "/en-cartelera":
-			res.end(cartelera());
-			break;
-		case "/mas-votadas":
-			res.end(masVotadas());
-			break;
-		case "/sucursales":
-			res.end(sucursales());
-			break;
-		case "/contacto":
-			res.end(contactos());
-			break;
-		case "/preguntas-frecuentes":
-			res.end(preguntasFrecuentes());
-			break;
-		default: {
-			res.end("Error!!!!!!!");
+
+module.exports = {
+ 	routes: (req, res) => {
+		switch (req.url) {
+			case "/":
+				res.end(content.homePage());
+				break;
+			case "/en-cartelera":
+				res.end(content.cartelera());
+				break;
+			case "/mas-votadas":
+				res.end(content.masVotadas());
+				break;
+			case "/sucursales":
+				res.end(content.sucursales());
+				break;
+			case "/contacto":
+				res.end(content.contactos());
+				break;
+			case "/preguntas-frecuentes":
+				res.end(content.preguntasFrecuentes());
+				break;
+			default: 
+				res.end("Error!!!!!!!");
+			}
 		}
 	}
 
-}
 
-
-
-module.exports = router;

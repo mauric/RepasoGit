@@ -31,7 +31,7 @@ app.get('/heroes/detalle/:id', (req, res) => {
 	// Si se encuentra al héroe se envía el nombre y su profesión
 	// Si NO se encuentra se envía el mensaje de no encontrado
 	if(!heroe){
-		res.send( 'No encontramos un héroe para mostrarte su biografía'​);
+		res.send('No encontramos un héroe para mostrarte su biografía'​);
 	}else{
 		if(req.params.ok! = undefined && req.params.ok == 'ok'){
 			res.send('${heroe.nombre}:${heroe.resenia}');
