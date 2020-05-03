@@ -1,24 +1,99 @@
-img{
+#home{
+    background-image: url('../img/emilia-home.jpg');
+    background-position: right top;
+    background-size: 950px;
+    background-repeat: no-repeat;
+}
 
+#about{
+    background-image: url('../img/emilia-about.jpg');
+    background-position: right top;
+    background-size: 850px;
+    background-repeat: no-repeat;
+}
+
+#music{
+    background-image: url('../img/emilia-music-top.jpg');
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.titulo{
+
+    font: 'font/Raleway-Regular';
+    font-size: 60px; 
+    opacity: 0.8;
+    background-color: aqua;
+    margin-top: 80px;
+    margin-bottom: 150px;
+    margin-left: 0;
+    margin-right: 0;
+    
 }
 
 
-h1{
-    font-size: "20px";
+
+.titulo-medio {
+    font-size: 40px;
+    font-weight: 20px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-
-
-h2{
-    font-weight: "20px";
-
+#Emilia-about {
+    font-weight: 20px;
+    font-size: 80px;
+    margin-top: 120fpx;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-h3[
+.titulo-contact {
+    font-size: 30px;
+}
+.icon {
+    width: 15px;
+    height: 15px;
+}
 
+#primer-icon{
+    margin-left: 1000px;
+}
 
-]
 
 p{
 
+}
+
+.top-about{
+    background-color: aquamarine;
+    opacity: 0.8;
+}
+
+.link-home {
+
+}
+
+#primer-about{
+    margin-left: 1000px;
+    margin-right: 0;
+}
+.link-about {
+
+}
+
+.quote{
+
+}
+
+.who-quote{
+    margin-bottom: 50px;
+}
+
+.tapa-album {
+    width: 50%;
 }
