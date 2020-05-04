@@ -1,0 +1,55 @@
+
+
+/* Style Resets */
+*{
+    box-sizing: border-box;
+  }
+  ul, ol{
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  /* Moblie (first)*/
+  body {
+      margin:0;
+      padding: 0;
+      background-image: url("../images/bg-body.png");
+      font-family: sans-serif;
+  }
+  .container{
+      margin: 0 auto; /* importante: centramos estructura */
+      max-width: 420px;
+  }
+  
+  .logo{
+    position: absolute;
+    right: 30%;
+    bottom: 30%;
+}
+s
+    .special{
+        position: absolute;
+        width: 30px;
+    }
+
+    .main-header{
+        position: absolute;
+        bottom: 80%;
+    }
+
+  /* ... acá sigo colocando los estilos para mobile */
+  
+  /* Tablets - Laptops */
+  @media (min-width:768px) {
+  
+  }
+  
+  /* Large Screens */
+  @media (min-width:1200px){
+  
+  }
