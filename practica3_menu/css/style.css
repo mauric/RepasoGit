@@ -1,0 +1,31 @@
+
+#cabecera {
+    border-bottom: 1px;
+    font-size: 30px;
+
+}
+
+#navegador {
+    float: left;
+    font-size: 20px;
+}
+
+#contenido-menu {
+    float: left;
+}
+
+.main{
+
+    margin: 5%;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+
+
+
+
+
+
