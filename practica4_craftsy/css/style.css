@@ -1,0 +1,69 @@
+.cuerpo {
+    background-image: url("../img/bg-2.png");
+    
+}
+
+.cabecera{
+    width: 960px;
+    background-color: red;
+}
+.main {
+    overflow: hidden;
+}
+.contenedor-productos {
+    width: 650px;
+    margin: 25px;
+    background-color: white;
+    float: left;
+    overflow: hidden;
+}
+.contenedor-lateral {
+    background-color: white;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.producto {
+    width: 300px;
+    margin: 10px;
+    float: left;
+}
+
+.lista-cabecera {
+    display: inline-block;
+}
+
+.links-cabecera {
+    display: inline-block;
+}
+
+.sub-division-cabecera {
+    display: inline-block;
+}
+
+.lista-login{
+    display: inline-block;
+}
+.link-login {
+    display: inline-block;
+}
+
+.categoria-span {
+    margin: 15px;
+    padding: 4px;
+}
+
+.login-categoria{
+    margin: 8px;
+    padding: 4pxs;
+}
+
+.costado-margen {
+    float: left;
+    
+}
+
+.titulo-margen {
+    background-color: white;
+    width: 250px;
+    margin-top: 20px;
+}
