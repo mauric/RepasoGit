@@ -8,14 +8,25 @@
 #navegador {
     float: left;
     font-size: 20px;
+ 
+    width: 30%;
 }
 
 #contenido-menu {
     float: left;
+    overflow: hidden;
+    width: 70%;
 }
 
-.main{
+#footer-menu{
+      background-image: url("../img/logo-web.png");
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: 25%;
+}
 
+#top{
+    overflow: hidden;
     margin: 5%;
 }
 
@@ -24,8 +35,18 @@ ul {
   }
 
 
+#logo-footer{
+       width:25%;
+ 
+}
 
+#footer-contacto {
+    text-align: right;
+}
 
-
-
+#foto-entrada {
+    float: right;
+    width: 50%;
+    
+}
 
