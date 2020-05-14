@@ -83,9 +83,6 @@
     padding: 20px;
   }
 
-  .main-nav {
-
-  }
 
 
 
@@ -95,10 +92,101 @@
   
   /* Tablets - Laptops */
   @media (min-width:768px) {
+    li{
+      display: inline-block;
+      width: 16%;
+      padding: 10px;
+      
+    }
     .banner{
       display: block;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;  
+    }
+    .imagen-banner {
+      width: 100%;
     }
     
+    .container{
+      margin: 0 auto; /* importante: centramos estructura */
+      width: 100vw;
+      height: 30vh;
+  }
+  .photo-container {
+    margin: 0 auto; /* importante: centramos estructura */
+    width: 100%;
+
+  }
+  .main-header{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;  
+ 
+  }
+  .main-nav {
+    font-size: 2vw;
+  }
+  .vip-products {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+  .product {
+    width: 50%;
+    margin-bottom: 60px;
+    font-size: 0.5em;
+    float: left;
+  }
+  .photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+  }
+  .special {
+    display: block;
+    width: 20%;
+    margin: 1%;
+    padding: 2%;
+
+
+  }
+  .zoom{
+
+  }
+  .main-footer{
+    font-size: 2vw;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;  
+  }
+
+
+  .logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    padding: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
