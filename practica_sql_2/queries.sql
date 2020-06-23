@@ -1,0 +1,12 @@
+USE `movies_db`;
+
+SELECT * FROM ACTORS;
+
+SELECT TITLE, AWARDS FROM MOVIES;
+
+SELECT * FROM MOVIES WHERE TITLE LIKE "Titanic";
+
+SELECT ID FROM SERIES WHERE TITLE LIKE "Person%";
+
+SELECT title, season_id NUMBER FROM episodes WHERE episodes.number = 2;
+
