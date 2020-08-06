@@ -1,13 +1,27 @@
 module.exports = (sequelize, DataTypes) => {
     alias = "Product"
     cols = {
+        id: {
+            type: DataTypes.INTEGER,
+            primaryKey: true,
+            autoIncrement: true
+        },
         name: {
             type: DataTypes.STRING
         },
-        email: {
+        description: {
             type: DataTypes.STRING
         },
-        password: {
+        price: {
+            type: DataTypes.INTEGER
+        },
+        discount: {
+            type: DataTypes.INTEGER
+        },
+        image: {
+            type: DataTypes.STRING
+        },
+        category: {
             type: DataTypes.STRING
         },
         createAt: {

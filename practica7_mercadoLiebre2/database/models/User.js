@@ -2,7 +2,9 @@ module.exports = (sequelize, DataTypes) => {
     alias = "User"
     cols = {
         name: {
-            type: DataTypes.STRING
+            type: DataTypes.STRING,
+            primaryKey: true,
+            autoIncrement: true
         },
         email: {
             type: DataTypes.STRING
