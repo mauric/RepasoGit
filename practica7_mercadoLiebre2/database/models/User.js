@@ -1,21 +1,27 @@
 module.exports = (sequelize, DataTypes) => {
-    const User = sequelize.define("User",{
+    alias = "User"
+    cols = {
         name: {
             type: DataTypes.STRING
         },
-        email:{
+        email: {
             type: DataTypes.STRING
         },
-        password:{
+        password: {
             type: DataTypes.STRING
         },
-        createAt:{
+        createAt: {
             type: DataTypes.DATE
         },
         createAt: {
-        type:DataTypes.DATE
+            type: DataTypes.DATE
         }
-    });
+    };
+    config = {
+        tableName: "users",
+        timeStamp: true
+    };
+    const Product = sequelize.define(alias, cols, config)
 
-     return User;
+    return Product;
 }
